@@ -5,7 +5,7 @@
       "name" : "CHANNEL_ID",
       "sourceLogicalColumn" : "logicalColumn:GC3_SH.CHANNELS.CHANNEL_ID"
     }, {
-      "name" : "CHANNELDESC",
+      "name" : "CHANNEL_DESC",
       "sourceLogicalColumn" : "logicalColumn:GC3_SH.CHANNELS.CHANNEL_DESC"
     }, {
       "name" : "CHANNEL_CLASS",
