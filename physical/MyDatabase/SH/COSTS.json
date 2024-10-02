@@ -1,0 +1,70 @@
+{
+  "physicalTable" : {
+    "name" : "COSTS",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "PROD_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "TIME_ID",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "PROMO_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "CHANNEL_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "UNIT_COST",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "UNIT_PRICE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    } ],
+    "caching" : {
+      "enable" : true,
+      "expiryTime" : 0
+    },
+    "joins" : [ {
+      "rightTable" : "physicalTable:MyDatabase.SH.CHANNELS",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:MyDatabase.SH.COSTS.CHANNEL_ID",
+        "rightColumn" : "physicalColumn:MyDatabase.SH.CHANNELS.CHANNEL_ID"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:MyDatabase.SH.PRODUCTS",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:MyDatabase.SH.COSTS.PROD_ID",
+        "rightColumn" : "physicalColumn:MyDatabase.SH.PRODUCTS.PROD_ID"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:MyDatabase.SH.PROMOTIONS",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:MyDatabase.SH.COSTS.PROMO_ID",
+        "rightColumn" : "physicalColumn:MyDatabase.SH.PROMOTIONS.PROMO_ID"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:MyDatabase.SH.TIMES",
+      "useJoinExpression" : false,
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:MyDatabase.SH.COSTS.TIME_ID",
+        "rightColumn" : "physicalColumn:MyDatabase.SH.TIMES.TIME_ID"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "presentationTable" : {
+    "name" : "COUNTRIES",
+    "presentationColumns" : [ {
+      "name" : "COUNTRY_ID",
+      "sourceLogicalColumn" : "logicalColumn:GC3_SH.COUNTRIES.COUNTRY_ID"
+    }, {
+      "name" : "COUNTRY_ISO_CODE",
+      "sourceLogicalColumn" : "logicalColumn:GC3_SH.COUNTRIES.COUNTRY_ISO_CODE"
+    }, {
+      "name" : "COUNTRY_NAME",
+      "sourceLogicalColumn" : "logicalColumn:GC3_SH.COUNTRIES.COUNTRY_NAME"
+    }, {
+      "name" : "COUNTRY_SUBREGION",
+      "sourceLogicalColumn" : "logicalColumn:GC3_SH.COUNTRIES.COUNTRY_SUBREGION"
+    }, {
+      "name" : "COUNTRY_SUBREGION_ID",
+      "sourceLogicalColumn" : "logicalColumn:GC3_SH.COUNTRIES.COUNTRY_SUBREGION_ID"
+    }, {
+      "name" : "COUNTRY_REGION",
+      "sourceLogicalColumn" : "logicalColumn:GC3_SH.COUNTRIES.COUNTRY_REGION"
+    }, {
+      "name" : "COUNTRY_REGION_ID",
+      "sourceLogicalColumn" : "logicalColumn:GC3_SH.COUNTRIES.COUNTRY_REGION_ID"
+    }, {
+      "name" : "COUNTRY_TOTAL",
+      "sourceLogicalColumn" : "logicalColumn:GC3_SH.COUNTRIES.COUNTRY_TOTAL"
+    }, {
+      "name" : "COUNTRY_TOTAL_ID",
+      "sourceLogicalColumn" : "logicalColumn:GC3_SH.COUNTRIES.COUNTRY_TOTAL_ID"
+    }, {
+      "name" : "COUNTRY_NAME_HIST",
+      "sourceLogicalColumn" : "logicalColumn:GC3_SH.COUNTRIES.COUNTRY_NAME_HIST"
+    } ]
+  }
+}

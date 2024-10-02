@@ -1,0 +1,23 @@
+{
+  "subjectArea" : {
+    "name" : "SH",
+    "sourceBusinessModel" : "businessModel:GC3_SH",
+    "tableOrder" : [ {
+      "name" : "presentationTable:SH.CHANNELS"
+    }, {
+      "name" : "presentationTable:SH.COSTS"
+    }, {
+      "name" : "presentationTable:SH.COUNTRIES"
+    }, {
+      "name" : "presentationTable:SH.CUSTOMERS"
+    }, {
+      "name" : "presentationTable:SH.PRODUCTS"
+    }, {
+      "name" : "presentationTable:SH.PROMOTIONS"
+    }, {
+      "name" : "presentationTable:SH.SALES"
+    }, {
+      "name" : "presentationTable:SH.TIMES"
+    } ]
+  }
+}
