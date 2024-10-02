@@ -2,7 +2,7 @@
   "presentationTable" : {
     "name" : "CHANNELS",
     "presentationColumns" : [ {
-      "name" : "CHANNELID",
+      "name" : "CHANNEL_ID",
       "sourceLogicalColumn" : "logicalColumn:GC3_SH.CHANNELS.CHANNEL_ID"
     }, {
       "name" : "CHANNEL_DESC",
